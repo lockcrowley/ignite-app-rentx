@@ -41,7 +41,7 @@ function Calendar({markedDates, onDayPress}: CalendarProps){
         <Feather
           size={24}
           color={theme.colors.text}
-          name={direction == 'left' ? 'chevron-left' : 'chevron-right'}
+          name={direction === 'left' ? 'chevron-left' : 'chevron-right'}
         />
       }
 

@@ -69,7 +69,7 @@ export function Home(){
   const navigation = useNavigation();
   const netInfo = useNetInfo();
 
-  function handleCarDetails(car: CarDTO){
+  function handleCarDetails(car: ModelCar){
     navigation.navigate('CarDetails', { car })
   }
 

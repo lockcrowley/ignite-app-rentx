@@ -19,8 +19,8 @@ export function generateInterval(start: DayProps, end:DayProps){
 
         textColor: start.dateString === date || end.dateString === date
         ? theme.colors.main_light : theme.colors.main,
-      }
-    }
+      },
+    };
   });
 
   return interval
